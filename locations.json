@@ -9,11 +9,11 @@
 			"street": "1400 Shepherd Dr",
 			"city": "Houston",
 			"state": "TX",
-			"zipcode": "77006"
+			"zipcode": "77007"
 			},
 		"phone": "(713) 864-9464",
 		"score": {
-			"foodScore": 9.5,
+			"foodScore": 9.0,
 			"drinkScore": 7.5,
 			"ambienceScore": 9.5
 			},
@@ -23,5 +23,30 @@
 		"history": "Started by UT-Ausin students",
 		"comment": "Best wings, hands-down",
 		"cons": "It's always freaking packed."
+	},
+	{
+		"name": "Hobbit Cafe",
+		"location": {
+			"lat": 29.733456,
+			"lng": -95.413941
+		},
+		"address": {
+			"street": "2243 Richmond Ave",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77098"
+			},
+		"phone": "(713) 526-5460",
+		"score": {
+			"foodScore": 9.5,
+			"drinkScore": 9.0,
+			"ambienceScore": 9.0
+			},
+		"type": ["American", "brewery"],
+		"alcohol": "full bar and brewery",
+		"attire": "casual",
+		"history": "Started in 1972, Hobbit Cafe has drawn all kinds of celebrities with its fresh, stellar food.",
+		"comment": "Pick between delicious health or dangerous food, and beer over 10% ABV",
+		"cons": "Sometimes the wait is long"
 	}
 ]
