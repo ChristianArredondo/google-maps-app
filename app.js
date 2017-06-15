@@ -1,10 +1,6 @@
 var map;
-console.log('test');
 var markers = [];
 var stores;
-$.getJSON('locations.json', function(response) {
-  console.log(response);
-});
 function initMap() {
   // Constructor creates a new map - only center and zoom are required.
   map = new google.maps.Map(document.getElementById('map'), {
