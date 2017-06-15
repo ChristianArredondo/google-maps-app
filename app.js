@@ -25,7 +25,7 @@ function initMap() {
   var bounds = new google.maps.LatLngBounds();
 
   // Use location array to create an array of markers
-  for (var i =0; i < cPicks.length; i++) {
+  for (var i =0; i < Object.keys(cPicks).length; i++) {
     // Get position from location array
     var position = cPicks[i].location;
     var title = cPicks[i].name;
