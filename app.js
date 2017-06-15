@@ -1,5 +1,5 @@
 var map;
-console.log('lol what?');
+console.log('test');
 var markers = [];
 var stores;
 $.getJSON('locations.json', function(response) {
