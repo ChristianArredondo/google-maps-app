@@ -1,10 +1,12 @@
 var map;
 var markers = [];
 var cPicks;
+var length;
  // Get JSON data
   $.getJSON('locations.json', function(response) {
       cPicks=response;
-      console.log(typeof cPicks);
+      console.log(cPicks);
+      length = Object.keys(cPicks).length;
   });
 
 function initMap() {
@@ -25,7 +27,7 @@ function initMap() {
   var bounds = new google.maps.LatLngBounds();
 
   // Use location array to create an array of markers
-  for (var i =0; i < Object.keys(cPicks).length; i++) {
+  for (var i =0; i < length; i++) {
     // Get position from location array
     var position = cPicks[i].location;
     var title = cPicks[i].name;
