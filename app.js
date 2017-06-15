@@ -2,14 +2,8 @@ var map;
 console.log('lol what?');
 var markers = [];
 var stores;
-$.ajax({
-  url:'locations.json',
-  type: 'GET',
-  dataType: 'json', 
-  success: function(response) {
-    json.parse(response);
-    console.log(response);
-  }
+$.getJSON('locations.json', function(response) {
+  console.log(response);
 });
 function initMap() {
   // Constructor creates a new map - only center and zoom are required.
