@@ -28,7 +28,7 @@ function initMap() {
   for (var i =0; i < cPicks.length; i++) {
     // Get position from location array
     var position = cPicks[i].location;
-    var title = locations[i].name;
+    var title = cPicks[i].name;
     // Create a marker for each location
     var marker = new google.maps.Marker({
       map: map,
