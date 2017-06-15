@@ -1,5 +1,16 @@
 var map;
+console.log('lol what?');
 var markers = [];
+var stores;
+$.ajax({
+  url:'locations.json',
+  type: 'GET',
+  dataType: 'json', 
+  success: function(response) {
+    json.parse(response);
+    console.log(response);
+  }
+});
 function initMap() {
   // Constructor creates a new map - only center and zoom are required.
   map = new google.maps.Map(document.getElementById('map'), {
@@ -13,7 +24,6 @@ function initMap() {
     {title:'Pluckers', location: {lat: 29.773843, lng: -95.402731}},
     {title:'Hobbit Cafe', location: {lat: 29.733456, lng: -95.413941}}
   ];
-  console.log(locations);
 
   var largeInfoWindow = new google.maps.InfoWindow();
   var bounds = new google.maps.LatLngBounds();
@@ -22,7 +32,6 @@ function initMap() {
   for (var i =0; i < locations.length; i++) {
     // Get position from location array
     var position = locations[i].location;
-    console.log(position);
     var title = locations[i].title;
     // Create a marker for each location
     var marker = new google.maps.Marker({
