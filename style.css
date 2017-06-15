@@ -1,0 +1,13 @@
+body {
+    		height: 100%;
+    		margin: 0;
+    		padding: 50px 0;
+    		text-align: center;
+    	}
+
+    	#map {
+    		height: 800px;
+    		width: 80%;
+    		margin: auto;
+    		border: 1px solid navy;
+    	}
