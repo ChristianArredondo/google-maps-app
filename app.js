@@ -3,11 +3,23 @@ var markers = [];
 var cPicks;
 var length;
  // Get JSON data
-  $.getJSON('locations.json', function(response) {
+$.ajax({
+  url: 'locations.json',
+  async: false,
+  dataType: "json",
+  success: function(response) {
       cPicks=response;
       console.log(cPicks);
-      length = Object.keys(cPicks).length;
+      length = Object.keys(cPicks).length
+      console.log(length);
+      }
   });
+
+  // $.getJSON('locations.json', function(response) {
+  //     cPicks=response;
+  //     console.log(cPicks);
+  //     console.log(Object.keys(cPicks).length);
+  // });
 
 function initMap() {
   // Constructor creates a new map - only center and zoom are required.
