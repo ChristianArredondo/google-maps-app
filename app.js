@@ -1,6 +1,60 @@
 var map;
 var markers = [];
 var stores;
+var picks = [
+  {
+    "name": "Pluckers",
+    "location": {
+      "lat": 29.773843,
+      "lng": -95.402731
+    },
+    "address": {
+      "street": "1400 Shepherd Dr",
+      "city": "Houston",
+      "state": "TX",
+      "zipcode": "77006"
+      },
+    "phone": "(713) 864-9464",
+    "score": {
+      "foodScore": 9.5,
+      "drinkScore": 7.5,
+      "ambienceScore": 9.5
+      },
+    "type": ["wings", "sports bar"],
+    "alcohol": "full bar",
+    "attire": "casual",
+    "history": "Started by UT-Ausin students",
+    "comment": "Best wings, hands-down",
+    "cons": "It's always freaking packed.",
+  },
+  {
+    "name": "LOL WHAT",
+    "location": {
+      "lat": 29.773843,
+      "lng": -95.402731
+    },
+    "address": {
+      "street": "1400 Shepherd Dr",
+      "city": "Houston",
+      "state": "TX",
+      "zipcode": "77006"
+    },
+    "phone": "(713) 864-9464",
+    "score": {
+      "foodScore": 9.5,
+      "drinkScore": 7.5,
+      "ambienceScore": 9.5
+      },
+    "type": ["wings", "sports bar"],
+    "alcohol": "full bar",
+    "attire": "casual",
+    "history": "Started by UT-Ausin students",
+    "comment": "Best wings, hands-down",
+    "cons": "It's always freaking packed.",
+  }
+];
+console.log(picks);
+
 function initMap() {
   // Constructor creates a new map - only center and zoom are required.
   map = new google.maps.Map(document.getElementById('map'), {
