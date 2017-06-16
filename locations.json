@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Pluckers",
+		"name": "Plucker's",
 		"location": {
 			"lat": 29.773843,
 			"lng": -95.402731
@@ -46,7 +46,57 @@
 		"alcohol": "full bar and brewery",
 		"attire": "casual",
 		"history": "Started in 1972, Hobbit Cafe has drawn all kinds of celebrities with its fresh, stellar food.",
-		"comment": "Pick between delicious health or dangerous food, and beer over 10% ABV",
+		"comment": "Pick between delicious healthy or dangerous food, and beer over 10% ABV",
 		"cons": "Sometimes the wait is long"
+	},
+	{
+		"name": "Ruggles Green",
+		"location": {
+			"lat": 29.780508,
+			"lng": -95.560524
+		},
+		"address": {
+			"street": "801 Town and Country Blvd",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77024"
+			},
+		"phone": "(713) 464-5557",
+		"score": {
+			"foodScore": 9.0,
+			"drinkScore": 8.0,
+			"ambienceScore": 9.5
+			},
+		"type": ["American"],
+		"alcohol": "Solid selection",
+		"attire": "casual / semi-formal",
+		"history": "Formed in late 2008, Ruggles Green is Houston's first Certified Green Restaurants.",
+		"comment": "Never had a bad experience here, I recommend their lettuce wraps and burgers.",
+		"cons": "Can't think of any!"
+	},
+	{
+		"name": "Torchy's Tacos",
+		"location": {
+			"lat": 29.744068,
+			"lng": -95.410029
+		},
+		"address": {
+			"street": "2411 S Shepherd Dr.",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77019"
+			},
+		"phone": "(713) 595-8226",
+		"score": {
+			"foodScore": 9.0,
+			"drinkScore": 7.0,
+			"ambienceScore": 8.5
+			},
+		"type": ["Gourmet Tacos"],
+		"alcohol": "Decent selection",
+		"attire": "casual",
+		"history": "Another awesome chain that started in Austin, TX.",
+		"comment": "Whatever you order, don't forget the Diablo sauce!",
+		"cons": "Sometimes there's a long line."
 	}
 ]

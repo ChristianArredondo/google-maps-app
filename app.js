@@ -8,9 +8,9 @@ function initMap() {
   // Constructor creates a new map - only center and zoom are required.
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 29.751560, lng: -95.363282},
-    zoom: 11
+    zoom: 12
   });
-  
+
   // Use AJAX to pull location JSON
   $.getJSON('locations.json', function(response) {
       cPicks=response;
@@ -58,11 +58,3 @@ function initMap() {
       }
       });
 };
-
-  // // Locations, in this case some Houston restaurants
-  // var locations = [
-  //   {title:'Hugos', location: {lat: 29.743061, lng: -95.399653}},
-  //   {title:'Ruggles Green', location: {lat: 29.780465, lng: -95.542325}},
-  //   {title:'Pluckers', location: {lat: 29.773843, lng: -95.402731}},
-  //   {title:'Hobbit Cafe', location: {lat: 29.733456, lng: -95.413941}}
-  // ];
