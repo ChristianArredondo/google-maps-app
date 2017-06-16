@@ -3,7 +3,6 @@ var markers = [];
 var cPicks;
 var length;
 
-// The ultimate Google Maps function
 function initMap() {
   // Constructor creates a new map - only center and zoom are required.
   map = new google.maps.Map(document.getElementById('map'), {
@@ -24,7 +23,6 @@ function initMap() {
 
       // Use location array to create an array of markers
       for (var i =0; i < length; i++) {
-        // Get position from location array
         var position = cPicks[i].location;
         var title = cPicks[i].name;
         // Create a marker for each location
