@@ -6,10 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Christian Arredondo">
     <title>Google Maps Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id="map"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <button class="btn btn-primary btn-block">All Picks</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-success btn-block">Food</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-info btn-block">Drinks</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-warning btn-block">Coffee</button>
+            </div>
+        </div>
+        <div class="row">
+	       <div class="col-sm-12" id="map">All</div>
+        </div>
+    </div>
 
 	<!-- jQuery, FontAwesome, and Bootstrap CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

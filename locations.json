@@ -17,7 +17,7 @@
 			"drinkScore": 7.5,
 			"ambienceScore": 9.5
 			},
-		"type": ["wings", "sports bar"],
+		"type": ["food", "alcohol"],
 		"alcohol": "full bar",
 		"attire": "casual",
 		"history": "Started by UT-Ausin students",
@@ -42,7 +42,7 @@
 			"drinkScore": 9.0,
 			"ambienceScore": 9.0
 			},
-		"type": ["American", "brewery"],
+		"type": ["food", "bar"],
 		"alcohol": "full bar and brewery",
 		"attire": "casual",
 		"history": "Started in 1972, Hobbit Cafe has drawn all kinds of celebrities with its fresh, stellar food.",
@@ -67,7 +67,7 @@
 			"drinkScore": 8.0,
 			"ambienceScore": 9.5
 			},
-		"type": ["American"],
+		"type": ["food"],
 		"alcohol": "Solid selection",
 		"attire": "casual / semi-formal",
 		"history": "Formed in late 2008, Ruggles Green is Houston's first Certified Green Restaurants.",
@@ -92,11 +92,86 @@
 			"drinkScore": 7.0,
 			"ambienceScore": 8.5
 			},
-		"type": ["Gourmet Tacos"],
+		"type": ["food"],
 		"alcohol": "Decent selection",
 		"attire": "casual",
 		"history": "Another awesome chain that started in Austin, TX.",
-		"comment": "Whatever you order, don't forget the Diablo sauce!",
+		"comment": "Whatever you decide to order, don't forget the Diablo sauce!",
 		"cons": "Sometimes there's a long line."
+	},
+	{
+		"name": "Hugo's",
+		"location": {
+			"lat": 29.742940,
+			"lng": -95.399706
+		},
+		"address": {
+			"street": "1600 Westheimer Rd.",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77006"
+			},
+		"phone": "(713) 521-7744",
+		"score": {
+			"foodScore": 9.5,
+			"drinkScore": 9.0,
+			"ambienceScore": 9.0
+			},
+		"type": ["food"],
+		"alcohol": "Eclectic selection",
+		"attire": "formal",
+		"history": "Hugo Ortega lives the American Dream, having immigrated to Houston from Mexico and building his award-winning restaurant empire from nothing.",
+		"comment": "Sometimes, I prefer just ordering multiple appetizers instead of a main course...they're THAT good!",
+		"cons": "This is a formal restaurant so it can be a bit pricey."
+	},
+	{
+		"name": "Campesino Cofee House",
+		"location": {
+			"lat": 29.746160,
+			"lng": -95.392978
+		},
+		"address": {
+			"street": "2602 Waugh Dr.",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77006"
+			},
+		"phone": "(832) 831-6486",
+		"score": {
+			"foodScore": "N/A",
+			"drinkScore": 9.5,
+			"ambienceScore": 9.0
+			},
+		"type": ["coffee"],
+		"alcohol": "I think they may have beer",
+		"attire": "casual",
+		"history": "Campesino is a relatively new cofee shop that takes a Latin perspective on the Montrose coffee culture.",
+		"comment": "You have to try their cafe con leche (with soy milk).",
+		"cons": "I wish they opened earlier!"
+	},
+	{
+		"name": "Fadi's Mediterranean Grill",
+		"location": {
+			"lat": 29.739993,
+			"lng": -95.503916
+		},
+		"address": {
+			"street": "8383 Westheimer Rd #112",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77063"
+			},
+		"phone": "(713) 532-0666",
+		"score": {
+			"foodScore": 9.0,
+			"drinkScore": "N/A",
+			"ambienceScore": 8.5
+			},
+		"type": ["food"],
+		"alcohol": "I think they may have beer",
+		"attire": "casual",
+		"history": "Fadi himself came from Saida, Lebanon and opened Fadi's shortly after his family created Dimassi's",
+		"comment": "So much food, so much freshness!",
+		"cons": "None!"
 	}
 ]
