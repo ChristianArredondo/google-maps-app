@@ -41,7 +41,7 @@ function initMap() {
         });
         bounds.extend(markers[i].position);
       };
-      
+
       function populateInfoWindow(marker, infowindow) {
         // Check to see if window is already open
         if (infowindow.marker != marker) {
@@ -54,5 +54,50 @@ function initMap() {
           });
         }
       }
-      });
-};
+
+    }); // End getJson
+    
+     function resetMarkers(markers) {
+      for (var i = 0; i < length; i++) {
+        markers[i].setMap(map);
+      };
+    };
+
+    // Filter by Food
+    $('#food').click(function() {
+      console.log('Clicked food filter!');
+      resetMarkers(markers);
+      for (var i = 0; i < length; i++) {
+        if (cPicks[i].type !== "food" && cPicks[i].type !== "food-bar") {
+          markers[i].setMap(null);
+        }
+      }
+    });
+    // Filter by Drinks
+    $('#drinks').click(function() {
+      console.log('Clicked drinks filter!');
+      resetMarkers(markers);
+      for (var i = 0; i < length; i++) {
+        if (cPicks[i].type !== "bar" && cPicks[i].type !== "food-bar") {
+          markers[i].setMap(null);
+        }
+      }
+    });
+    // Filter by Coffee
+    $('#coffee').click(function() {
+      console.log('Clicked coffee filter!');
+      resetMarkers(markers);
+      for (var i = 0; i < length; i++) {
+        if (cPicks[i].type !== "coffee") {
+          markers[i].setMap(null);
+        }
+      }
+    });
+    // Show All
+    $('#all').click(function() {
+      console.log('Show all!');
+      resetMarkers(markers);
+    });
+
+
+}; // End initMap

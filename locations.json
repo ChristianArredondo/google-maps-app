@@ -17,7 +17,7 @@
 			"drinkScore": 7.5,
 			"ambienceScore": 9.5
 			},
-		"type": ["food", "alcohol"],
+		"type": "food-bar",
 		"alcohol": "full bar",
 		"attire": "casual",
 		"history": "Started by UT-Ausin students",
@@ -42,7 +42,7 @@
 			"drinkScore": 9.0,
 			"ambienceScore": 9.0
 			},
-		"type": ["food", "bar"],
+		"type": "food-bar",
 		"alcohol": "full bar and brewery",
 		"attire": "casual",
 		"history": "Started in 1972, Hobbit Cafe has drawn all kinds of celebrities with its fresh, stellar food.",
@@ -67,7 +67,7 @@
 			"drinkScore": 8.0,
 			"ambienceScore": 9.5
 			},
-		"type": ["food"],
+		"type": "food",
 		"alcohol": "Solid selection",
 		"attire": "casual / semi-formal",
 		"history": "Formed in late 2008, Ruggles Green is Houston's first Certified Green Restaurants.",
@@ -92,7 +92,7 @@
 			"drinkScore": 7.0,
 			"ambienceScore": 8.5
 			},
-		"type": ["food"],
+		"type": "food",
 		"alcohol": "Decent selection",
 		"attire": "casual",
 		"history": "Another awesome chain that started in Austin, TX.",
@@ -117,7 +117,7 @@
 			"drinkScore": 9.0,
 			"ambienceScore": 9.0
 			},
-		"type": ["food"],
+		"type": "food",
 		"alcohol": "Eclectic selection",
 		"attire": "formal",
 		"history": "Hugo Ortega lives the American Dream, having immigrated to Houston from Mexico and building his award-winning restaurant empire from nothing.",
@@ -142,7 +142,7 @@
 			"drinkScore": 9.5,
 			"ambienceScore": 9.0
 			},
-		"type": ["coffee"],
+		"type": "coffee",
 		"alcohol": "I think they may have beer",
 		"attire": "casual",
 		"history": "Campesino is a relatively new cofee shop that takes a Latin perspective on the Montrose coffee culture.",
@@ -167,7 +167,33 @@
 			"drinkScore": "N/A",
 			"ambienceScore": 8.5
 			},
-		"type": ["food"],
+		"type": "food",
+		"alcohol": "I think they may have beer",
+		"attire": "casual",
+		"history": "Fadi himself came from Saida, Lebanon and opened Fadi's shortly after his family created Dimassi's",
+		"comment": "So much food, so much freshness!",
+		"cons": "None!"
+	}
+	,
+	{
+		"name": "Doc's",
+		"location": {
+			"lat": 29.743386,
+			"lng": -95.394591
+		},
+		"address": {
+			"street": "8383 Westheimer Rd #112",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77063"
+			},
+		"phone": "(713) 532-0666",
+		"score": {
+			"foodScore": 9.0,
+			"drinkScore": "N/A",
+			"ambienceScore": 8.5
+			},
+		"type": "bar",
 		"alcohol": "I think they may have beer",
 		"attire": "casual",
 		"history": "Fadi himself came from Saida, Lebanon and opened Fadi's shortly after his family created Dimassi's",
