@@ -1,13 +1,50 @@
-body {
-    		height: 100%;
-    		margin: 0;
-    		padding: 50px 0;
-    		text-align: center;
-    	}
+/*body, html {
+    height: 100%;
+}*/
+/* Navbar */
+nav {
+    padding: 10px 50px;
+}
 
-    	#map {
-    		height: 800px;
-    		width: 100%;
-    		margin: auto;
-    		border: 1px solid navy;
-    	}
+ .navbar .navbar-toggle .icon-bar {
+    background-color: #337ab7;
+ }
+
+
+/* Main Container*/
+.map-container {
+    padding-left: 350px;
+    height: 700px;
+}
+
+/* Sidebar */
+#sidebar {
+    position: absolute;
+    left: 0;
+    width: 350px;
+    z-index: 1000;
+    overflow: auto;
+    background: #e6e6e6;
+    height: 100%;
+    float: left;
+}
+
+#map {
+	width: 100%;
+    height: 100%;
+	position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-sm-3 {
+    padding: 0;
+}
+
+.btn {
+    border-radius: 0;
+}

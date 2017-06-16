@@ -58,7 +58,7 @@ function initMap() {
     }); // End getJson
     
      function resetMarkers(markers) {
-      for (var i = 0; i < length; i++) {
+      for (var i in markers) {
         markers[i].setMap(map);
       };
     };
