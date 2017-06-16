@@ -10,6 +10,7 @@ function initMap() {
     zoom: 12
   });
 
+
   // Use AJAX to pull location JSON
   $.getJSON('locations.json', function(response) {
       cPicks=response;
@@ -60,6 +61,7 @@ function initMap() {
      function resetMarkers(markers) {
       for (var i in markers) {
         markers[i].setMap(map);
+        // markers[i].setAnimation(google.maps.Animation.DROP);
       };
     };
 
@@ -100,4 +102,10 @@ function initMap() {
     });
 
 
+    google.maps.event.addDomListener(window, "resize", function() {
+     var center = map.getCenter();
+     google.maps.event.trigger(map, "resize");
+     map.setCenter(center); 
+    });
 }; // End initMap
+    
