@@ -13,9 +13,9 @@
 			},
 		"phone": "(713) 864-9464",
 		"score": {
-			"foodScore": "9.0",
-			"drinkScore": "7.5",
-			"ambienceScore": "9.5"
+			"foodScore": 9.0,
+			"drinkScore": 7.5,
+			"ambienceScore": 9.5
 			},
 		"type": "food-bar",
 		"alcohol": "full bar",
@@ -173,8 +173,7 @@
 		"history": "Fadi himself came from Saida, Lebanon and opened Fadi's shortly after his family created Dimassi's",
 		"comment": "So much food, so much freshness!",
 		"cons": "None!"
-	}
-	,
+	},
 	{
 		"name": "Doc's",
 		"location": {
@@ -198,6 +197,106 @@
 		"attire": "casual",
 		"history": "Fadi himself came from Saida, Lebanon and opened Fadi's shortly after his family created Dimassi's",
 		"comment": "So much food, so much freshness!",
+		"cons": "None!"
+	},
+	{
+		"name": "Pura Coffee",
+		"location": {
+			"lat": 29.782798,
+			"lng": -95.475743
+		},
+		"address": {
+			"street": "7925 Katy Fwy C",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77024"
+			},
+		"phone": "(832) 940-0822",
+		"score": {
+			"foodScore": "N/A",
+			"drinkScore": "9.0",
+			"ambienceScore": "8.0"
+			},
+		"type": "coffee",
+		"alcohol": "N/A",
+		"attire": "casual",
+		"history": "Pura coffee is a relatively new coffee shop with a friendly staff and delicious drinks.",
+		"comment": "The coy capuccino is simply amazing.",
+		"cons": "None!"
+	},
+	{
+		"name": "The Oceanaire Seafood Room",
+		"location": {
+			"lat": 29.740276,
+			"lng": -95.462761
+		},
+		"address": {
+			"street": "5061 Westheimer Rd.",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "77056"
+			},
+		"phone": "(832) 487-8862",
+		"score": {
+			"foodScore": 9.0,
+			"drinkScore": 9.0,
+			"ambienceScore": 9.0
+			},
+		"type": "food",
+		"alcohol": "full selection",
+		"attire": "formal",
+		"history": "The Oceanaire is a prime, award-winning seafood restaurants.",
+		"comment": "Too many good options, you should try something new each time!",
+		"cons": "None!"
+	},
+	{
+		"name": "Xochi",
+		"location": {
+			"lat": 29.754311,
+			"lng": -95.359978
+		},
+		"address": {
+			"street": "1777 Walker St.",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "770010"
+			},
+		"phone": "(713) 400-3330",
+		"score": {
+			"foodScore": 9.5,
+			"drinkScore": 9.5,
+			"ambienceScore": 10
+			},
+		"type": "food",
+		"alcohol": "full selection",
+		"attire": "formal",
+		"history": "Owned by Hugo Ortega,  Xochi celebrates the culinary and indigenous richness of Oaxaca, Mexico and its varied geographic regions and preservation of primitive customs with an unrivaled menu of Oaxaca-inspired food and drink.  ",
+		"comment": "I recommend the taquitos dorados as an appetize, and the Negro en Negro for the main course.",
+		"cons": "None!"
+	},
+	{
+		"name": "Axelrad Beer Garden",
+		"location": {
+			"lat": 29.754311,
+			"lng": -95.359978
+		},
+		"address": {
+			"street": "1777 Walker St.",
+			"city": "Houston",
+			"state": "TX",
+			"zipcode": "770010"
+			},
+		"phone": "(713) 400-3330",
+		"score": {
+			"foodScore": 9.5,
+			"drinkScore": 9.5,
+			"ambienceScore": 10
+			},
+		"type": "food",
+		"alcohol": "full selection",
+		"attire": "formal",
+		"history": "Owned by Hugo Ortega,  Xochi celebrates the culinary and indigenous richness of Oaxaca, Mexico and its varied geographic regions and preservation of primitive customs with an unrivaled menu of Oaxaca-inspired food and drink.  ",
+		"comment": "I recommend the taquitos dorados as an appetize, and the Negro en Negro for the main course.",
 		"cons": "None!"
 	}
 ]

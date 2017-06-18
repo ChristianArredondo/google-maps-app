@@ -60,25 +60,11 @@ function initMap() {
           }
         });
         bounds.extend(markers[i].position);
-        // Push location details to sidebar
       };
-
-      // function populateInfoWindow(marker, infowindow) {
-      //   // Check to see if window is already open
-      //   if (infowindow.marker != marker) {
-      //     infowindow.marker = marker;
-      //     infowindow.setContent('<div>' + marker.title + '</div>');
-      //     infowindow.open(map,marker);
-      //     // Clear marker on close
-      //     infowindow.addListener('closeclick', function() {
-      //       infowindow.setMarker = null;
-      //     });
-      //   }
-      // }
-
     }); // End getJson
     
-     function resetMarkers(markers) {
+    // Function to reset markers for use on click
+    function resetMarkers(markers) {
       for (var i in markers) {
         markers[i].setMap(map);
         // markers[i].setAnimation(google.maps.Animation.DROP);
@@ -121,11 +107,15 @@ function initMap() {
       resetMarkers(markers);
     });
 
-    // Resize map
+    // Center map on resize
     google.maps.event.addDomListener(window, "resize", function() {
-     var center = map.getCenter();
-     google.maps.event.trigger(map, "resize");
-     map.setCenter(center); 
+      var center = map.getCenter();
+      google.maps.event.trigger(map, "resize");
+      map.setCenter(center); 
     });
+    google.maps.event.addListener(map, 'bounds_changed', function() {
+      var bounds = map.getBounds();
+    });
+
 }; // End initMap
     
