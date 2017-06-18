@@ -33,7 +33,14 @@ nav {
     overflow: auto;
     background: #e6e6e6;
     height: 100%;
-    overflow-y: scroll;  
+    overflow-y: scroll; 
+}
+
+#title {
+    /*-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;*/
 }
 
 #map-section {

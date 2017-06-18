@@ -51,14 +51,44 @@ function initMap() {
               ambienceScoreHTML = '<p><strong>Ambience Score: </strong>' + ' ' + cPicks[i].score.ambienceScore + '</p>';
               thoughtHTML = '<p><strong>My thoughts: </strong>' + ' ' + cPicks[i].comment + '</p>';
               historyHTML = '<p><strong>History: </strong>' + ' ' + cPicks[i].history + '</p>';
-              $('#title').html(titleHTML);
-              $('#address').html(addressHTML);
-              $('#phone').html(phoneHTML);
-              $('#food-score').html(foodScoreHTML);
-              $('#drink-score').html(drinkScoreHTML);
-              $('#ambience-score').html(ambienceScoreHTML);
-              $('#thought').html(thoughtHTML);
-              $('#history').html(historyHTML);
+              if (titleHTML === '') {
+                // Fade in if first-time click
+                $('#title').html(titleHTML).fadeIn(100);
+                $('#address').html(addressHTML).fadeIn(100);
+                $('#phone').html(phoneHTML).fadeIn(100);
+                $('#food-score').html(foodScoreHTML).fadeIn(100);
+                $('#thought').html(drinkScoreHTML).fadeIn(100);
+                $('#ambience-score').html(ambienceScoreHTML).fadeIn(100);
+                $('#thought').html(thoughtHTML).fadeIn(100);
+                $('#history').html(historyHTML).fadeIn(100);
+              }
+              // Otherwise fade out AND THEN fade in
+              else {
+                $('#title').fadeOut("fast", function() {
+                  $('#title').html(titleHTML).fadeIn(500);
+                });
+                $('#address').fadeOut("fast", function() {
+                  $('#address').html(addressHTML).fadeIn(500);
+                });
+                $('#phone').fadeOut("fast", function() {
+                  $('#phone').html(phoneHTML).fadeIn(500);
+                });
+                $('#food-score').fadeOut("fast", function() {
+                  $('#food-score').html(foodScoreHTML).fadeIn(500);
+                });
+                $('#drink-score').fadeOut("fast", function() {
+                  $('#drink-score').html(drinkScoreHTML).fadeIn(500);
+                });
+                $('#ambience-score').fadeOut("fast", function() {
+                  $('#ambience-score').html(ambienceScoreHTML).fadeIn(500);
+                });
+                $('#thought').fadeOut("fast", function() {
+                  $('#thought').html(thoughtHTML).fadeIn(500);
+                });
+                $('#history').fadeOut("fast", function() {
+                  $('#history').html(historyHTML).fadeIn(500);
+                });
+              }
             };
           }
         });
