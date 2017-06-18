@@ -13,9 +13,9 @@
 			},
 		"phone": "(713) 864-9464",
 		"score": {
-			"foodScore": 9.0,
-			"drinkScore": 7.5,
-			"ambienceScore": 9.5
+			"foodScore": "9.0",
+			"drinkScore": "7.5",
+			"ambienceScore": "9.5"
 			},
 		"type": "food-bar",
 		"alcohol": "full bar",
