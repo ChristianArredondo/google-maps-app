@@ -11,64 +11,65 @@
 </head>
 <body>
 
-        <!-- Nav -->
-        <nav class="navbar" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">CA</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"
-                             aria-hidden="true"></span> Home</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
-                        <li><a href="#"><i class="fa fa-envelope-o"></i> Contact</a></li>
-                    </ul>
-                </div>
-            </div>     
-        </nav>
-        <!-- Main Container -->
-        <div class="main-container">
-            
-            <!-- Sidebar -->
-            <div class="col-sm-3" id="sidebar" >
-                <div id="title"></div>
-                <div id="address"></div>
-                <div id="phone"></div>
-                <div id="food-score"></div>
-                <div id="drink-score"></div>
-                <div id="ambience-score"></div>
-                <div id="thought"></div>
-                <div id="history"></div>
+    <!-- Nav -->
+    <nav class="navbar" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CA</a>
             </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"
+                         aria-hidden="true"></span> Home</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
+                    <li><a href="#"><i class="fa fa-envelope-o"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>     
+    </nav>
 
-            <!-- Map -->
-            <div class="map-container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <button class="btn btn-primary btn-block" id="all" label="view-all">All Picks</button>
-                    </div>
-                    <div class="col-sm-3">
-                        <button class="btn btn-success btn-block" id="food">Food</button>
-                    </div>
-                    <div class="col-sm-3">
-                        <button class="btn btn-info btn-block" id="drinks">Drinks</button>
-                    </div>
-                    <div class="col-sm-3">
-                        <button class="btn btn-warning btn-block" id="coffee">Coffee</button>
-                    </div>
-                    <div class="col-sm-12" id="map-container">
-                        <div id="map"></div>   
-                   </div>
+    <!-- Main Container -->
+    <div class="main-container">
+        
+        <!-- Sidebar -->
+        <div class="col-sm-3" id="sidebar" >
+            <div id="title"></div>
+            <div id="address"></div>
+            <div id="phone"></div>
+            <div id="food-score"></div>
+            <div id="drink-score"></div>
+            <div id="ambience-score"></div>
+            <div id="thought"></div>
+            <div id="history"></div>
+        </div>
+
+        <!-- Map -->
+        <div class="map-container">
+            <div class="row">
+                <div class="col-sm-3 filter">
+                    <button class="btn btn-primary btn-block" id="all" label="view-all">All Picks</button>
                 </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-success btn-block" id="food">Food</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-info btn-block" id="drinks">Drinks</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-warning btn-block" id="coffee">Coffee</button>
+                </div>
+                <div class="col-sm-12" id="map-section">
+                    <div id="map"></div>   
+               </div>
             </div>
         </div>
+    </div>
 
 	<!-- jQuery, FontAwesome, and Bootstrap CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -33,6 +33,9 @@ function initMap() {
           animation: google.maps.Animation.DROP,
           id: i
         });
+        var newSize = $('.filter').height();
+        var mapHeight =  $('#sidebar').height() - 3*newSize;
+        $('#map').height(mapHeight);
         // Push each marker to arroy of markers
         markers.push(marker);
         // Create onClick event to open infowindow at each marker
@@ -109,13 +112,17 @@ function initMap() {
 
     // Center map on resize
     google.maps.event.addDomListener(window, "resize", function() {
+      // Ghetto map fitter (need to find a more proper way to achieve this)
+      var newSize = $('.filter').height();
+      var mapHeight =  $('#sidebar').height() - 3*newSize;
+      $('#map').height(mapHeight);
+      // Responsive map center
       var center = map.getCenter();
       google.maps.event.trigger(map, "resize");
-      map.setCenter(center); 
-    });
-    google.maps.event.addListener(map, 'bounds_changed', function() {
-      var bounds = map.getBounds();
-    });
-
+      map.setCenter(center);
+      });
+    // google.maps.event.addListener(map, 'bounds_changed', function() {
+    //   var bounds = map.getBounds();
+    // });
 }; // End initMap
     
