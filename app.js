@@ -172,6 +172,7 @@ function initMap() {
         $('button').removeClass('active');
         $('button').addClass('inactive');
         $(this).addClass('active');
+        $(this).removeClass('inactive');
       }
     });
 
