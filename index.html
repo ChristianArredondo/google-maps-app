@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
     <!-- Nav -->
     <nav class="navbar" role="navigation">
         <div class="container-fluid">
@@ -33,36 +32,33 @@
             </div>
         </div>     
     </nav>
-
     <!-- Main Container -->
     <div class="main-container">
-        
         <!-- Sidebar -->
         <div class="col-sm-3" id="sidebar" >
-            <div class="sideContent"><p id="title"></p></div>
-            <div><p id="address"></p></div>
-            <div><p id="phone"></p></div>
-            <div><p id="food-score"></p></div>
-            <div><p id="drink-score"></p></div>
-            <div><p id="ambience-score"></p></div>
-            <div><p id="thought"></p></div>
-            <div><p id="history"></p></div>
+            <div id="title"></div>
+            <div id="address"></div>
+            <div id="phone"></div>
+            <div id="food-score"></div>
+            <div id="drink-score"></div>
+            <div id="ambience-score"></div>
+            <div id="thought"></div>
+            <div id="history"></div>
         </div>
-
         <!-- Map -->
         <div class="map-container">
             <div class="row">
                 <div class="col-sm-3 filter">
-                    <button class="btn btn-primary btn-block" id="all" label="view-all">All Picks</button>
+                    <button class="btn btn-block active" id="all" label="view-all">All Picks</button>
                 </div>
-                <div class="col-sm-3">
-                    <button class="btn btn-success btn-block" id="food">Food</button>
+                <div class="col-sm-3 filter">
+                    <button class="btn btn-block inactive" id="food">Food</button>
                 </div>
-                <div class="col-sm-3">
-                    <button class="btn btn-info btn-block" id="drinks">Drinks</button>
+                <div class="col-sm-3 filter">
+                    <button class="btn btn-block inactive" id="drinks">Drinks</button>
                 </div>
-                <div class="col-sm-3">
-                    <button class="btn btn-warning btn-block" id="coffee">Coffee</button>
+                <div class="col-sm-3 filter">
+                    <button class="btn btn-block inactive" id="coffee">Coffee</button>
                 </div>
                 <div class="col-sm-12" id="map-section">
                     <div id="map"></div>   
@@ -70,7 +66,6 @@
             </div>
         </div>
     </div>
-
 	<!-- jQuery, FontAwesome, and Bootstrap CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

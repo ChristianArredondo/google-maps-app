@@ -277,8 +277,8 @@
 	{
 		"name": "Axelrad Beer Garden",
 		"location": {
-			"lat": 29.754311,
-			"lng": -95.359978
+			"lat": 29.734927,
+			"lng": -95.373936
 		},
 		"address": {
 			"street": "1777 Walker St.",
@@ -288,15 +288,15 @@
 			},
 		"phone": "(713) 400-3330",
 		"score": {
-			"foodScore": 9.5,
-			"drinkScore": 9.5,
+			"foodScore": 7.5,
+			"drinkScore": 8.5,
 			"ambienceScore": 10
 			},
-		"type": "food",
+		"type": "bar",
 		"alcohol": "full selection",
 		"attire": "formal",
-		"history": "Owned by Hugo Ortega,  Xochi celebrates the culinary and indigenous richness of Oaxaca, Mexico and its varied geographic regions and preservation of primitive customs with an unrivaled menu of Oaxaca-inspired food and drink.  ",
-		"comment": "I recommend the taquitos dorados as an appetize, and the Negro en Negro for the main course.",
-		"cons": "None!"
+		"history": "Conceived as a community-gathering place offering beer, wine, drinks, Luigi’s pizza, live music, and the city’s only hammock grove, Axelrad aims to be a place for all.",
+		"comment": "Come prepared for a great, relaxing, outdoor drinking experience!",
+		"cons": "It's usually packed so the line to get drinks can be long."
 	}
 ]

@@ -1,8 +1,19 @@
+/* Global */
 html, body {
     overflow: hidden;
     height: 100%;
     box-sizing: border-box;
 }
+
+.row {
+    margin: 0;
+    height: 100%;
+}
+
+.col-sm-3 {
+    padding: 0;
+}
+
 /* Navbar */
 nav {
     padding: 0 50px;
@@ -18,11 +29,47 @@ nav {
     height: 100%;
 }
 
+/* Filter Buttons*/
+button.inactive {
+    border-radius: 0;
+    background-color: #d4cae3;
+    color: #2c1c46;
+    border-left: 1px solid #7c708f; 
+}
 
+
+button.inactive:hover {
+    background-color: #c9bed8;
+}
+
+button.active {
+    background-color: #7c708f;
+    color: white;
+    border-radius: 0;
+}
+
+button.active:hover,
+button.active:focus {
+    color: white;
+}
+
+/* Map Container and Map */
 .map-container {
     padding-left: 350px;
     width: 100%;
     height: 100%;
+}
+
+#map-section {
+    position: relative;
+    height: 100%;
+    padding: 0;
+}
+
+#map-section #map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 /* Sidebar */
@@ -43,27 +90,3 @@ nav {
     transition: opacity 1s ease-in-out;*/
 }
 
-#map-section {
-    position: relative;
-    height: 100%;
-    padding: 0;
-}
-
-#map-section #map {
-	width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-.row {
-    margin: 0;
-    height: 100%;
-}
-
-.col-sm-3 {
-    padding: 0;
-}
-
-.btn {
-    border-radius: 0;
-}
