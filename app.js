@@ -49,7 +49,7 @@ function initMap() {
           id: i
         });
         var newSize = $('.filter').height();
-        var mapHeight =  $('#sidebar').height() - 3*newSize;
+        var mapHeight =  $('#sidebar').height() - 2.5*newSize;
         $('#map').height(mapHeight);
         // Push each marker to arroy of markers
         markers.push(marker);
@@ -180,7 +180,7 @@ function initMap() {
     google.maps.event.addDomListener(window, "resize", function() {
       // Ghetto map fitter (need to find a more proper way to achieve this)
       var newSize = $('.filter').height();
-      var mapHeight =  $('#sidebar').height() - 3*newSize;
+      var mapHeight =  $('#sidebar').height() - 2.5*newSize;
       $('#map').height(mapHeight);
       // Responsive map center
       var center = map.getCenter();
